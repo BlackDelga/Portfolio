@@ -1,0 +1,287 @@
+/* Global Layout Set-up */
+
+/* Icon Button for my home */
+.btn {
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  color: white;
+}
+
+
+
+/* working on my app icon */
+.nav .my_app {
+  padding: 23px 16px;
+}
+
+/* introduze mouseover and mouseout on Background paragraph and Goals paragraph */
+.intro {
+  font-size: 150%;
+  color: black;
+  font-style: oblique;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+
+a:hover {
+  color: #6633ff;
+}
+
+/* Section Styles */
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+  padding: 25px;
+}
+
+.nav li {
+  padding: 5px 5px 10px 10px;
+}
+
+.nav a {
+  transition: all .5s;
+}
+
+.nav a:hover {
+  color: white
+}
+
+header {
+  text-align: center;
+  background: url('https://stmed.net/sites/default/files/watch-dogs-hd-wallpapers-33894-4266727.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+header {
+  line-height: 1.5;
+}
+
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+header .profile-image:hover {
+  transform: scale(1.2) rotate(0deg);
+}
+
+.tag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+.Information {
+  background-color: black;
+  color: yellow;
+}
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+.card:hover {
+  border-color: black;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: black;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+}
+
+footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer list ul will display in line instead horizontaly*/
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s;
+}
+
+ul.SocialMedia {
+  display: inline;
+  image-orientation: center;
+  text-align: center;
+}
+
+/* Footer SocialMedia title and icon display make it center */
+h4 .SocialMediaTitle {
+  text-align: center;
+}
+
+ul {
+  padding-inline-start: 10px;
+}
+
+/* bootstrap icon social media */
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #fb3958;
+  color: white;
+}
+
+.fa-github {
+  background: #211F1F;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  .flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+  .nav {
+    max-width: 1200px;
+  }
+
+  .nav .name {
+    display: flex;
+    margin-right: auto;
+    color: white;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
