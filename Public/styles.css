@@ -12,11 +12,21 @@
   color: white;
 }
 
+.fa {
+  padding: 5px;
+  font-size: 11px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
 
 
 /* working on my app icon */
 .nav .my_app {
   padding: 23px 16px;
+  margin-right: 10px;
 }
 
 /* introduze mouseover and mouseout on Background paragraph and Goals paragraph */
@@ -107,8 +117,7 @@ header .profile-image:hover {
 }
 
 .tag {
-  background-color: #efefef;
-  color: black;
+  color: green;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -118,20 +127,6 @@ header .profile-image:hover {
 .Information {
   background-color: black;
   color: yellow;
-}
-
-.card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-}
-
-.card:hover {
-  border-color: black;
 }
 
 ul.skills {
@@ -198,42 +193,27 @@ h4 .SocialMediaTitle {
 }
 
 ul {
-  padding-inline-start: 10px;
+  padding-inline-start: 20px;
 }
 
-/* bootstrap icon social media */
-.fa {
-  padding: 5px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
+/* style my line br */
 
-.fa:hover {
-    opacity: 0.7;
+hr.style-three {
+height: 30px;
+border-style: solid;
+border-color: black;
+border-width: 1px 0 0 0;
+border-radius: 20px;
 }
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-instagram {
-  background: #fb3958;
-  color: white;
-}
-
-.fa-github {
-  background: #211F1F;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+hr.style-three:before {
+display: block;
+content: "";
+height: 30px;
+margin-top: -31px;
+border-style: solid;
+border-color: black;
+border-width: 0 0 1px 0;
+border-radius: 20px;
 }
 
 /* Styles for larger screens */
