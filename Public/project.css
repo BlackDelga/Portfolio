@@ -5,7 +5,7 @@ h1,h2,h3,h4,h5,p{
 
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
   }
@@ -147,4 +147,14 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.profile-image {
+  margin-top: 10px;
+  margin-left: 45px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
 }

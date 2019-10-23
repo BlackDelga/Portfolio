@@ -1,0 +1,58 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title EvandroD
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  link(rel='stylesheet' type='text/css' href='/cssFiles/styles.css')
+  link(rel='stylesheet' type='text/css' href='/cssFiles/foundation.css')
+  link(rel='icon' href='favicon.ico')
+.main-nav
+  ul.nav
+    li.name Evandro Delgado
+    li.btn
+      a.fa.fa-home(href='' style='font-size:29px')
+    li
+      a.fa.fa-envelope-o(href='contact.html' style='font-size:28px;color:red;margin-left:5px;')
+    p#app.my_app(onclick='myFunction()')
+      a MyApp
+header
+  .tag.name
+    br
+    br
+    h2 Evandro Delgado
+    h4 Success is hard Work, Perseverance and Learning
+    a(href='about.html') LEARN MORE &rarr;
+br
+article.grid-container.portfolio-intro
+  div
+    h3 JavaScript Training Portfolio!
+hr.style-three
+main.flex
+  article.grid-container.portfolio-index
+    #effect.grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      .cell
+        a(href='project.html')
+          img.thumbnail(src='/cssFiles/img/P1_550x550.jpg')
+          h5 A Random Quote Generator
+      .cell
+        a(href='project.html')
+          img.thumbnail(src='/cssFiles/img/P2_550x550.jpg')
+          h5 List Pagination and Filtering
+      .cell
+        a(href='project.html')
+          img.thumbnail(src='/cssFiles/img/P3_550x550.jpg')
+          h5 OOP Game Show App
+      .cell
+        a(href='project.html')
+          img.thumbnail(src='/cssFiles/img/P4_550x550.jpg')
+          h5 Public API Requests
+hr.style-three
+footer
+script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous')
+script.
+  function myFunction() {
+  document.getElementById('app');
+  alert('Coming Soon!');
+  }

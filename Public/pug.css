@@ -187,4 +187,13 @@ a:hover{
   margin-left: 20px;
 }
 
+.profile-image {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
 /* bootstrap social media icon ended */
