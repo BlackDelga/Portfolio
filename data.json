@@ -5,8 +5,8 @@
       "project_name": "A Random Quote Generator",
       "description": "An app that displays random famous quotes each time a button is clicked",
       "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "",
-      "github_link": "https://github.com/BlackDelga/Techdegree_Project_1.git",
+      "live_link": "https://blackdelga.github.io/Techdegree_Project_1/",
+      "github_link": "https://github.com/BlackDelga/Techdegree_Project_1",
       "image_urls": [
         "/cssFiles/img/P1_550x550.jpg",
         "/cssFiles/img/P1_01_1200x550.jpg",
@@ -19,11 +19,11 @@
       "project_name": "List Pagination and Filtering",
       "description": "Using the pagination technique to turn a long list of information into bit sized chunks",
       "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "",
-      "github_link": "https://github.com/BlackDelga/Techdegree_Project_2.git",
+      "live_link": "https://blackdelga.github.io/Techdegree_Project_2/",
+      "github_link": "https://github.com/BlackDelga/Techdegree_Project_2",
       "image_urls": [
         "/cssFiles/img/P2_550x550.jpg",
-        "/cssFiles/img/P2_01-1200x550.jpg",
+        "/cssFiles/img/P2_01_1200x550.jpg",
         "/cssFiles/img/P2_02_1200x550.jpg",
         "/cssFiles/img/P2_03_1200x550.jpg"
       ]
@@ -33,8 +33,8 @@
       "project_name": "OOP Game Show App",
       "description": "A browser-based, word guessing game using JavaScript and OOP (Object-oriented Programming)",
       "technologies": ["Javascript", "HTML", "CSS", "jQuery"],
-      "live_link": "",
-      "github_link": "https://github.com/BlackDelga/OOP_Game_Show_App.git",
+      "live_link": "https://blackdelga.github.io/OOP_Game_Show_App/",
+      "github_link": "https://github.com/BlackDelga/OOP_Game_Show_App",
       "image_urls": [
         "/cssFiles/img/P3_550x550.jpg",
         "/cssFiles/img/P3_01_1200x550.jpg",
@@ -47,13 +47,13 @@
       "project_name": "Public API Requests",
       "description": "Using the Random User Generator API to grab information for 12 random 'employees' to create a directory",
       "technologies": ["Javascript", "HTML", "CSS", "jQuery", "AJAX"],
-      "live_link": "",
-      "github_link": "https://github.com/BlackDelga/Public_API_Request.git",
+      "live_link": "https://blackdelga.github.io/Public_API_Request/",
+      "github_link": "https://github.com/BlackDelga/Public_API_Request",
       "image_urls": [
         "/cssFiles/img/P4_550x550.jpg",
         "/cssFiles/img/P4_01_1200x550.jpg",
         "/cssFiles/img/P4_02_1200x550.jpg",
-        "/cssFiles/img/P4-03_1200x550.jpg"
+        "/cssFiles/img/P4_03_1200x550.jpg"
       ]
     }
   ]
