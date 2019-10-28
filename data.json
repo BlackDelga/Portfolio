@@ -30,7 +30,7 @@
     },
     {
       "id": 2,
-      "project_name": "OOP Game Show App",
+      "project_name": "OOP Game Show",
       "description": "A browser-based, word guessing game using JavaScript and OOP (Object-oriented Programming)",
       "technologies": ["Javascript", "HTML", "CSS", "jQuery"],
       "live_link": "https://blackdelga.github.io/OOP_Game_Show_App/",

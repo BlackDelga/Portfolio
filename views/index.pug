@@ -7,7 +7,7 @@ html
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
     link(rel='stylesheet', type='text/css', href='/cssFiles/styles.css')
     link(rel='stylesheet', type='text/css', href='/cssFiles/foundation.css')
-    link(rel='icon', href='favicon.ico')
+    link(rel='icon', href='/cssFiles/favicon.ico')
   body
     .main-nav
       ul.nav
@@ -21,10 +21,10 @@ html
             span
             span
           ul
-            li Home
-            li Contact
-            li About
-            li My_App
+            a(href='contact.html')
+              li Contact
+            a(href='about.html')
+              li About
         // <li><a href="contact.html" class="fa fa-envelope-o" style="font-size:28px;color:red;margin-left:5px;"></a></li>
         // <p class="my_app" id="app" onclick="myFunction()"><a>MyApp</a></p>
     header
@@ -42,6 +42,7 @@ html
     main.flex
       article.grid-container.portfolio-index
       .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
 
          each project, index in projects
            .cell.hidden
