@@ -1,4 +1,55 @@
+
 /* Global Layout Set-up */
+
+/* image */
+
+img.rounded-img{
+  border-radius: 0 50% 50% 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  border: 3px solid black;
+  transition: all .5s;
+  margin-right: 20px;
+}
+
+/* 3 dots menu icon */
+#sidebar{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  right: -200px;
+  transition: all 500ms linear;
+}
+#sidebar.active{
+  right: 0px;
+}
+
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, 0.9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+#sidebar .toggle-btn{
+  position: absolute;
+  right: 325px;
+  top: 15px;
+}
+
+#sidebar .toggle-btn span {
+
+  width: 35px;
+  height: 2px;
+  background: white;
+  display: block;
+  margin-top: 10px;
+  margin-left: 500px;
+}
+/* 3 dots end */
 
 /* Icon Button for my home */
 .btn {
@@ -12,14 +63,31 @@
   color: white;
 }
 
+/* social media icon */
 .fa {
   padding: 5px;
-  font-size: 11px;
-  width: 20px;
+  font-size: 22px;
+  width: -10%;
   text-align: center;
   text-decoration: none;
-  margin: 10px 10px;
+  margin-right: 10px;
+  margin-top: 25px;
   border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 2;
+}
+
+.fa-facebook {
+  margin-right: auto;
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
 }
 
 

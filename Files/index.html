@@ -15,10 +15,26 @@
 
   <div class="main-nav">
     <ul class="nav">
-      <li class="name">Evandro Delgado</li>
-      <li class="btn"><a href="" class="fa fa-home" style="font-size:29px"></a></li>
-      <li><a href="contact.html" class="fa fa-envelope-o" style="font-size:28px;color:red;margin-left:5px;"></a></li>
-      <p class="my_app" id="app" onclick="myFunction()"><a>MyApp</a></p>
+      <a href="index.html">
+        <img class="thumbnail rounded-img" src="cssFiles/img/evan_pic0.jpg">
+      </a>
+      <a  target="_blank" href="https://www.instagram.com/blackdelga/?hl=en" class="fa fa-instagram"></a>
+      <a  target="_blank" href="https://www.facebook.com/evandro.delgado.02" class="fa fa-facebook"></a>
+      <div id="sidebar">
+          <div class="toggle-btn" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+          <li>About</li>
+          <li>My_App</li>
+        </ul>
+      </div>
+      <!-- <li><a href="contact.html" class="fa fa-envelope-o" style="font-size:28px;color:red;margin-left:5px;"></a></li> -->
+      <!-- <p class="my_app" id="app" onclick="myFunction()"><a>MyApp</a></p> -->
     </ul>
   </div>
 
@@ -80,14 +96,9 @@
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
   </script>
-  <script >
-function myFunction() {
-  document.getElementById('app');
-  alert('Coming Soon!');
-}
+  <script src="../Public/toggle.js">
+
   </script>
-
-
 </body>
 
 </html>

@@ -153,8 +153,7 @@ a:hover{
 
 .fa {
   padding: 5px;
-  font-size: 12px;
-  width: 21px;
+  font-size: 15px;
   text-align: center;
   text-decoration: none;
   margin: 10px 10px;
@@ -166,7 +165,6 @@ a:hover{
 }
 
 .fa-facebook {
-  margin-right: auto;
   background: black;
   color: white;
 }
@@ -184,7 +182,7 @@ a:hover{
 .fa-linkedin {
   background: black;
   color: white;
-  margin-left: 20px;
+  margin-left: -1px;
 }
 
 .profile-image {
@@ -194,6 +192,11 @@ a:hover{
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+}
+
+/* back icon display */
+.fa-arrow-circle-left{
+  width: 1.5%;
 }
 
 /* bootstrap social media icon ended */
