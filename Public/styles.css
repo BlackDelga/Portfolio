@@ -4,13 +4,17 @@
 /* image */
 
 img.rounded-img{
-  border-radius: 0 50% 50% 50%;
-  width: 50px;
-  height: 50px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
   margin-top: 10px;
   border: 3px solid black;
   transition: all .5s;
   margin-right: 20px;
+}
+
+.rounded-img:hover {
+  transform: scale(1.2) rotate(360deg);
 }
 
 /* 3 dots menu icon */
@@ -69,7 +73,8 @@ img.rounded-img{
   border-left: 8px solid red;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-}
+
+/* effect on my image */
 
 
 /* Icon Button for my home */
@@ -105,12 +110,18 @@ img.rounded-img{
   background: black;
   color: white;
 }
+.fa-facebook:hover {
+  transform: scale(1.2);
+}
 
 .fa-instagram {
   background: black;
   color: white;
 }
 
+.fa-instagram:hover {
+  transform: scale(1.2);
+}
 /* introduze mouseover and mouseout on Background paragraph and Goals paragraph */
 .intro {
   font-size: 150%;
@@ -192,10 +203,6 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
-}
-
-header .profile-image:hover {
-  transform: scale(1.2) rotate(0deg);
 }
 
 .tag {
