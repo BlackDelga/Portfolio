@@ -74,9 +74,6 @@ img.rounded-img{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-/* effect on my image */
-
-
 /* Icon Button for my home */
 .btn {
   border: none;
@@ -196,15 +193,6 @@ header {
   line-height: 1.5;
 }
 
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-
 .tag {
   color: green;
   padding: 10px;
@@ -306,6 +294,7 @@ border-color: black;
 border-width: 0 0 1px 0;
 border-radius: 20px;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
