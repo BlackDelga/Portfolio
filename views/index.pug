@@ -29,7 +29,12 @@ html
         // <p class="my_app" id="app" onclick="myFunction()"><a>MyApp</a></p>
     br
     header
-      
+      #app
+        #wrapper
+          // Make sure data-text equals the text you put inside the tags.
+          h1.glitch(data-text='\
+          Evan.Dev') Evandro Delgado
+          span.sub Web Developer
     br
     article.grid-container.portfolio-intro
       div
@@ -50,4 +55,3 @@ html
     script(src='https://code.jquery.com/jquery-3.4.1.min.js', integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=', crossorigin='anonymous')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
     script(src='/cssFiles/js/toggle.js')
-    script(src='/cssFiles/js/src/mgGlitch.min.js')
