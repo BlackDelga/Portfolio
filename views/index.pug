@@ -22,12 +22,12 @@ html
             span
             span
             ul#menu
-              a(href='#')
+              a(href='/about.html')
                 li About
-              a(href='#')
+              a(href='/contact.html')
                 li Contact
-              a(href='#')
-                li App
+              a(href='')
+                li.app App
         // <li><a href="contact.html" class="fa fa-envelope-o" style="font-size:28px;color:red;margin-left:5px;"></a></li>
         // <p class="my_app" id="app" onclick="myFunction()"><a>MyApp</a></p>
     br
@@ -54,7 +54,20 @@ html
                img.thumbnail(src=`${project.image_urls[0]}`)
                h5 #{project.project_name}
     hr.style-three
-    footer
+    footer#myFooter(style='padding:0px;')
+      .container-fluid
+        .row.text-center
+          .col-12
+            p.footer-copyright
+              | © 2019 Copyright ~ Designed By  
+              a(href='') Evandro Delgado
+          .col.footer-social
+            a.social-icons(href='')
+              i.fa.fa-github
+            a.social-icons(href='')
+              i.fa.fa-twitter
+            a.social-icons(href='')
+              i.fa.fa-linkedin
     script(src='https://code.jquery.com/jquery-3.4.1.min.js', integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=', crossorigin='anonymous')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
     script(src='/cssFiles/js/toggle.js')
