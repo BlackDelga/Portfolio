@@ -15,16 +15,19 @@ html
           img.thumbnail.rounded-img(src='cssFiles/img/evan_pic0.jpg')
         a.fa.fa-instagram(target='_blank', href='https://www.instagram.com/blackdelga/?hl=en')
         a.fa.fa-facebook(target='_blank', href='https://www.facebook.com/evandro.delgado.02')
-        #sidebar
-          .toggle-btn(onclick='toggleSidebar()')
+        nav(role='navigation')
+          #menuToggle
+            input(type='checkbox')
             span
             span
             span
-          ul
-            a(href='contact.html')
-              li Contact
-            a(href='about.html')
-              li About
+            ul#menu
+              a(href='#')
+                li About
+              a(href='#')
+                li Contact
+              a(href='#')
+                li App
         // <li><a href="contact.html" class="fa fa-envelope-o" style="font-size:28px;color:red;margin-left:5px;"></a></li>
         // <p class="my_app" id="app" onclick="myFunction()"><a>MyApp</a></p>
     br
