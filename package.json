@@ -4,7 +4,8 @@
   "description": "Evan_Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "author": "Evandro Delgado",
   "license": "ISC",
