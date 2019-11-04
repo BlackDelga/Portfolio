@@ -6,12 +6,12 @@
 // const word = JSON.parse(data);
 
 //requered express in my project
-const PORT = process.env.PORT;
 const express = require('express');
 const app = express();
 const path = require('path');
 const data = require('./data.json');
 const projects = data.projects;
+const port = process.env.PORT || 8080;
 
 app.set('view engine', 'pug');
 
@@ -72,8 +72,8 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
-app.listen(3000, function () {
-  console.log('port at 3000');
+app.listen(port, function () {
+  console.log('Server at port', +port);
 });
 
 // //when click at MyApp this message appers
