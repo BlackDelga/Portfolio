@@ -6,6 +6,7 @@
 // const word = JSON.parse(data);
 
 //requered express in my project
+const PORT = process.env.PORT;
 const express = require('express');
 const app = express();
 const path = require('path');
