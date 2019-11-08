@@ -680,7 +680,7 @@ textarea {
   height: auto; }
 
 .grid-margin-x {
-  /* margin-left: 2.375rem; */
+  margin-left: -1.625rem;
   margin-right: -0.625rem; }
   @media print, screen and (min-width: 40em) {
     .grid-margin-x {
