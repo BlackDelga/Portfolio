@@ -680,12 +680,12 @@ textarea {
   height: auto; }
 
 .grid-margin-x {
-  margin-left: 2.375rem;
+  /* margin-left: 2.375rem; */
   margin-right: -0.625rem; }
   @media print, screen and (min-width: 40em) {
     .grid-margin-x {
-      margin-left: -0.9375rem;
-      margin-right: -0.9375rem; } }
+      margin-left: 1.0625rem;
+       } }
   .grid-margin-x > .cell {
     width: calc(100% - 1.25rem);
     margin-left: 5.625rem;

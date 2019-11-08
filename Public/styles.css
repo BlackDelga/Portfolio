@@ -155,8 +155,8 @@ a:hover
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 0;
+  width: 150px;
+  margin: -120px -1px 0 0;
   padding: 50px;
   padding-top: 125px;
   right: -100px;

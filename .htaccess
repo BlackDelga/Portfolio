@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	RewriteCond %{HTTPS} off [OR]
-	RewriteCond %{HTTP_HOST} !^www\.
+	RewriteCond %{HTTPS} off
 	RewriteRule (.*) https://evandev.site/$1 [R=301,L]
 </IfModule>

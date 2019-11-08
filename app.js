@@ -11,7 +11,6 @@ const app = express();
 const path = require('path');
 const data = require('./data.json');
 const projects = data.projects;
-
 const port = process.env.PORT || 8080;
 
 app.set('view engine', 'pug');
