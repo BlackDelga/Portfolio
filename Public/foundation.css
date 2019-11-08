@@ -436,10 +436,10 @@ html {
   box-sizing: border-box;
   font-size: 100%; }
 
-*,
+/* *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit; } */
 
 body {
   margin: 0;
@@ -576,7 +576,7 @@ textarea {
   width: 16.66667%; }
 
 .grid-x > .small-3 {
-  width: 25%; }
+  width: 100%; }
 
 .grid-x > .small-4 {
   width: 33.33333%; }
@@ -653,7 +653,7 @@ textarea {
   .grid-x > .large-2 {
     width: 16.66667%; }
   .grid-x > .large-3 {
-    width: 25%; }
+    width: 20%; }
   .grid-x > .large-4 {
     width: 33.33333%; }
   .grid-x > .large-5 {
@@ -680,7 +680,7 @@ textarea {
   height: auto; }
 
 .grid-margin-x {
-  margin-left: -0.625rem;
+  margin-left: 2.375rem;
   margin-right: -0.625rem; }
   @media print, screen and (min-width: 40em) {
     .grid-margin-x {
@@ -688,8 +688,9 @@ textarea {
       margin-right: -0.9375rem; } }
   .grid-margin-x > .cell {
     width: calc(100% - 1.25rem);
-    margin-left: 0.625rem;
-    margin-right: 0.625rem; }
+    margin-left: 5.625rem;
+    margin-right: 0.625rem;
+    margin-bottom: 3%; }
   @media print, screen and (min-width: 40em) {
     .grid-margin-x > .cell {
       width: calc(100% - 1.875rem);
@@ -958,7 +959,7 @@ textarea {
   .grid-margin-x.large-up-2 > .cell {
     width: calc(50% - 1.875rem); }
   .grid-margin-x.large-up-3 > .cell {
-    width: calc(33.33333% - 1.875rem); }
+    width: calc(23.33333% - 1.875rem); }
   .grid-margin-x.large-up-4 > .cell {
     width: calc(25% - 1.875rem); }
   .grid-margin-x.large-up-5 > .cell {
@@ -5008,7 +5009,7 @@ a.thumbnail {
     box-shadow: none; }
 
 .title-bar {
-  padding: 0.5rem;
+  padding: 0.5rem 40px;
   background: #0a0a0a;
   color: #fefefe;
   display: -ms-flexbox;
