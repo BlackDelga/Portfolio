@@ -684,7 +684,7 @@ textarea {
   margin-right: -0.625rem; }
   @media print, screen and (min-width: 40em) {
     .grid-margin-x {
-      margin-left: 1.0625rem;
+      /* margin-left: 1.0625rem; */
        } }
   .grid-margin-x > .cell {
     width: calc(100% - 1.25rem);
