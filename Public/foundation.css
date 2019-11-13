@@ -2231,7 +2231,9 @@ h6, .h6 {
   font-style: normal;
   font-weight: normal;
   color: inherit;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  margin-left: 2.4% }
+
   h1 small, .h1 small,
   h2 small, .h2 small,
   h3 small, .h3 small,
@@ -2279,7 +2281,8 @@ h6, .h6 {
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
-    font-size: 3rem; }
+    font-size: 3rem;
+    margin-left: 2.4%; }
   h2, .h2 {
     font-size: 2.5rem; }
   h3, .h3 {
