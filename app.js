@@ -55,7 +55,7 @@ app.get('/project/:id', (req, res, next) => {
 
 // Creating new error
 app.use((req, res, next) => {
-  const err = new Error('There has been an error!');
+  const err = new Error('Error Display!');
   err.status = 404;
   next(err);
 });
@@ -63,7 +63,7 @@ app.use((req, res, next) => {
 //using that error to display error pug template
 app.use((err, req, res, next) => {
   res.status(err.status);
-  err.message = 'There has been an error';
+  err.message = 'Error Display';
   res.locals.error = err;
   if (res.status = 404) {
     console.log(`${req.path} is not a valid path`);
