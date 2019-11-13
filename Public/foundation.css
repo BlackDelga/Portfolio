@@ -2245,8 +2245,8 @@ h6, .h6 {
 
 h1, .h1 {
   font-size: 1.5rem;
-  line-height: 1.4;
-  margin-top: 0;
+  line-height: 1.2;
+  margin-top: 15px;
   margin-bottom: 0.5rem; }
 
 h2, .h2 {
@@ -2265,13 +2265,15 @@ h4, .h4 {
   font-size: 1.125rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-left: 3px; }
 
 h5, .h5 {
   font-size: 1.0625rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-left: 0px}
 
 h6, .h6 {
   font-size: 1rem;
@@ -2282,7 +2284,8 @@ h6, .h6 {
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
     font-size: 3rem;
-    margin-left: 2.4%; }
+    margin-left: 2.4%;
+    display: table-cell;; }
   h2, .h2 {
     font-size: 2.5rem; }
   h3, .h3 {
