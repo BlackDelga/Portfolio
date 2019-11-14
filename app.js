@@ -6,6 +6,7 @@
 // const word = JSON.parse(data);
 
 //requered express in my project
+const forceSecure = require('force-secure-express');
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -71,6 +72,12 @@ app.use((err, req, res, next) => {
 
   res.render('error');
 });
+
+//force http to https
+app.use(forceSecure([
+  'evandev.site',
+  'https://www.evandev.site',
+]));
 
 app.listen(port, function () {
   console.log('Server at port', +port);

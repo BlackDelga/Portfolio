@@ -16,6 +16,7 @@
     "express": "^4.17.1",
     "express-force-ssl": "^0.3.2",
     "express-https-provider": "^1.0.12",
+    "force-secure-express": "^1.0.1",
     "jquery": "^3.4.1",
     "nodemon": "^1.19.3",
     "normalize.css": "^8.0.1",
